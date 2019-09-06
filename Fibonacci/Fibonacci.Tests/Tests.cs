@@ -21,7 +21,7 @@ namespace Fibonacci.Tests
         }
 
         [Fact]
-        public void Add(int x, int y)
+        public void Add()
         {
             Assert.Equal(8,8);
         }
