@@ -23,7 +23,7 @@ namespace Fibonacci.Tests
         [Fact]
         public void Add()
         {
-            Assert.Equal(8,8);
+            Assert.Equal(7,8);
         }
     }
 }
