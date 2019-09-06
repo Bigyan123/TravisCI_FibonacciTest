@@ -19,5 +19,11 @@ namespace Fibonacci.Tests
 
             Assert.Equal(generator.Fibonacci(6), 8);
         }
+
+        [Fact]
+        public void Add(int x, int y)
+        {
+            Assert.Equal(8,8);
+        }
     }
 }

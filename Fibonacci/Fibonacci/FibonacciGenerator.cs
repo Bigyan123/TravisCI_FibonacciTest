@@ -13,5 +13,10 @@
                 return Fibonacci(n - 1) + Fibonacci(n - 2);
             }
         }
+
+        public int Add(int x, int y)
+        {
+            return x + y;
+        }
     }
 }
