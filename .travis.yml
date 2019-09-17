@@ -1,5 +1,9 @@
 language: csharp
 solution: "./Fibonacci/Fibonacci.sln"
+
+# A list of available JDKs in Trusty can be seed in:
+# https://docs.travis-ci.com/user/reference/trusty/#jvm-clojure-groovy-java-scala-images
+
 install:
 - travis_retry nuget restore -source "https://www.nuget.org/api/v2" ./Fibonacci/Fibonacci.sln
 script:
